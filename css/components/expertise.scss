@@ -1,0 +1,132 @@
+.expertise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: rem(80px);
+    margin-right: rem(77px);
+    margin-bottom: rem(64px);
+
+    @include tablets {
+        margin-left: rem(20px);
+        margin-right: rem(50px);
+        margin-bottom: rem(30px);
+    }
+
+    @include phones {
+        margin-left: rem(10px);
+        margin-right: rem(50px);
+        margin-bottom: rem(30px);
+    }
+}
+.expertise__title {
+    font-size: rem(28px);
+    line-height: rem(32px);
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: rem(50px);
+
+    @include tablets {
+        font-size: rem(26px);
+    }
+
+    @include phones {
+        font-size: rem(20px);
+    }
+}
+
+.expertise__content {
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: rem(60px);
+
+    @include tablets {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: rem(40px);
+
+        flex-wrap: wrap;
+    }
+
+    @include phones {
+        font-size: rem(20px);
+    }
+}
+
+.expertise__content-block {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin-right: rem(100px);
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    @include tablets {
+        margin-right: rem(10px);
+        margin-bottom: rem(30px);
+    }
+
+    @include phones {
+        margin-right: 0;
+        margin-bottom: rem(20px);
+    }
+}
+
+.expertise__pic {
+    display: block;
+    margin-bottom: rem(24px);
+}
+
+.expertise__text {
+    max-width: rem(200px);
+    text-align: center;
+    font-size: rem(21px);
+    line-height: rem(24px);
+}
+
+.expertise__pic-text {
+    position: absolute;
+    margin-top: rem(66px);
+    max-width: rem(150px);
+    text-align: center;
+    color: #131132;
+    font-size: rem(21px);
+    font-weight: bold;
+}
+
+.expertise__photos {
+    display: flex;
+
+    @include tablets {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: rem(40px);
+    }
+
+    @include phones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: rem(20px);
+    }
+}
+.expertise__ph1 {
+    margin-right: rem(24px);
+
+    @include tablets {
+        margin-bottom: rem(40px);
+        margin-right: 0;
+    }
+
+    @include phones {
+        margin-bottom: rem(40px);
+    }
+}
