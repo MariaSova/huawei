@@ -1,0 +1,4 @@
+.investment {
+  display: flex;
+  flex-direction: column;
+}

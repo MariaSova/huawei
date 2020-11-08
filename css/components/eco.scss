@@ -1,0 +1,39 @@
+.eco {
+    display: flex;
+    flex-direction: column;
+    margin-left: rem(86px);
+    margin-right: rem(70px);
+    margin-bottom: rem(70px);
+
+    @include tablets {
+        margin-left: rem(20px);
+        margin-right: rem(50px);
+        margin-bottom: rem(30px);
+    }
+
+    @include phones {
+        margin-left: rem(10px);
+        margin-right: rem(50px);
+        margin-bottom: rem(30px);
+    }
+}
+
+.eco__title {
+    font-size: rem(36px);
+    line-height: rem(41px);
+    font-weight: bold;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: rem(30px);
+
+    @include tablets {
+        font-size: rem(30px);
+        margin-bottom: rem(20px);
+    }
+
+    @include phones {
+        font-size: rem(26px);
+        margin-bottom: rem(20px);
+    }
+}
